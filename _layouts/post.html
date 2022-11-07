@@ -53,6 +53,16 @@ tail_includes:
 
     </div>
   {% endif %}
+  <div class="project_blurb_wrapper">
+    <p class="project_title">{{ page.title }} [{{page.venue}}]</p>
+    <p class="project_description">{{ page.description }} </p>
+    {% if page.video %}
+        <a href="{{ page.video }}">Video <i class='far fa-play-circle'></i></a>
+    {% endif %}
+    {% if page.paper %}
+        <a href="{{ page.paper }}">Paper <i class='far fa-paper-plane'></i></a>
+    {% endif %}
+</div>
 
   <div class="d-flex justify-content-between">
     <!-- author(s) -->
@@ -63,7 +73,6 @@ tail_includes:
         {% assign authors = page.authors %}
       {% endif %}
 
-      {{ site.data.locales[site.lang].post.written_by }}
 
       <em>
       {% if authors %}
@@ -89,7 +98,6 @@ tail_includes:
       {% endif %}
 
       <!-- read time -->
-      {% include read-time.html content=content prompt=true %}
     </div>
 
   </div> <!-- .d-flex -->
@@ -130,20 +138,8 @@ tail_includes:
     d-flex justify-content-between align-items-center mt-3 pt-5 pb-2">
     <div class="license-wrapper">
 
-      {% if site.data.locales[site.lang].copyright.license.template %}
-
-        {% capture _replacement %}
-        <a href="{{ site.data.locales[site.lang].copyright.license.link }}">
-          {{ site.data.locales[site.lang].copyright.license.name }}
-        </a>
-        {% endcapture %}
-
-        {{ site.data.locales[site.lang].copyright.license.template | replace: ':LICENSE_NAME', _replacement }}
-
-      {% endif %}
     </div>
 
-    {% include post-sharing.html %}
 
   </div><!-- .post-tail-bottom -->
 

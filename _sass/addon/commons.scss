@@ -2,6 +2,42 @@
   The common styles
 */
 
+
+.project_blurb_wrapper {
+    &[data-mode="dark"] {
+      @include dark-scheme;
+    }  
+    background: var(--sidebar-bg);
+    text-align: center;
+    padding-bottom: .8rem;
+    padding-left: .8rem;
+    padding-right: .8rem;
+    border: 2rem, solid, var(--sidebar-bg);
+    a {
+      padding-right: 0.2rem;
+    }
+
+}
+
+.project_title {
+  &[data-mode="dark"] {
+    @include dark-scheme;
+  }  
+  font-size: 1.5rem;
+}
+
+.project_wrapper {
+  &[data-mode="dark"] {
+    @include dark-scheme;
+  }  
+  border-top: 2px inset;
+  border-bottom: 2px inset;
+  margin-bottom: 4rem;
+  padding: .5rem;
+}
+
+
+
 html {
   @media (prefers-color-scheme: light) {
     &:not([data-mode]),

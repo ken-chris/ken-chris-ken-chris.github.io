@@ -1,0 +1,33 @@
+---
+layout: page
+---
+
+{% assign df_strftime_m = site.data.locales[site.lang].df.archives.strftime | default: '/ %m' %}
+{% assign df_dayjs_m = site.data.locales[site.lang].df.archives.dayjs | default: '/ MM' %}
+
+<div>
+
+{% for post in site.posts %}
+    {% for category in post.categories %}
+        {% if category == "Research" %}
+        <div class="project_wrapper">
+        <div><img src= {{post.image.path}} alt="Project_Image" width={{post.image.width}} height={{post.image.height}}/></div>
+            <div class="project_blurb_wrapper">
+                <p class="project_title">{{ post.title }} [{{post.venue}}]</p>
+                <p class="project_description">{{ post.description }} </p>
+                <a href="{{ post.url | relative_url }}">Project <i class='far fa-window-restore'></i><a>
+                {% if post.video %}
+                    <a href="{{ post.video }}">Video <i class='far fa-play-circle'></i></a>
+                {% endif %}
+                {% if post.paper %}
+                    <a href="{{ post.paper }}">Paper <i class='far fa-paper-plane'></i></a>
+                {% endif %}
+            </div>
+        </div>
+            {% if forloop.last %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+
+</div>
