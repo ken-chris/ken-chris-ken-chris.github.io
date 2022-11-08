@@ -7,7 +7,7 @@ tags: [audio, machine learning, classification, health]
 math: true
 mermaid: true
 image:
-  path: /assets/img/liquifaction.png
+  path: /assets/img/Sleep_Sounds.png
   width: 800
   height: 500
   alt: 
