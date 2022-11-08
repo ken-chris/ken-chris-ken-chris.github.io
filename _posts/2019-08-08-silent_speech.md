@@ -19,7 +19,7 @@ video:
 ---
 
 
-# Abstract
+# Abstract:
 Speech recognition systems are widely used in mobile devices. These systems enable natural hands-free input mobile devices input. However, speech reconition systems can be awkward to use and are easily overheard. For example, speaking aloud to a voice assistant in public places can be awkward or inappropriate (e.g., libraries) and user inputs might contain information the user does not want others to hear. Luckily, vocal production (e.g, sound produced by the vocal system) is not required for to recognize the jaw and tongue movements associated with speech. For example, speaking the letter "A" requires a characteristic set of mouth and jaw positions. In this work, we propose a 'silent speech' recognition method that can distinguish letters spoken silently (that is, without vocal production). The proposed method recognizes silently spelled letters using an inaudible ultrasounic chirp. The frequench modulated contiuous wave chirp is emitted into the ear canal by an earbud and its reflection is recorded by the same device. As users silently speak letters, thier facial muscles, jaw and tongue apply pressure against the ear canal, deforming it slightly. This deformation will apply a transfer function to the reflected FMWC chrip. Our model analyzes the reflected signal and classifies the target letter. 
 
 
