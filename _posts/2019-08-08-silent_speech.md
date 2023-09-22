@@ -1,5 +1,5 @@
 ---
-title: Ultrasonic Occluded Ear Canal Deformation Analysis for Hands-Free Silent Text Entry 
+title: ReHEarSE - Recognizing Hidden-in-the-Ear Silent Expressions using Ultrasonic Occluded Ear Canal Deformation Analysis 
 author: Ken
 date: 2022-08-08 11:33:00 +0800
 categories: [Research]
@@ -7,11 +7,11 @@ tags: [audio, ultrasonic sensing, earbuds, HCI]
 math: true
 mermaid: true
 image:
-  path: /assets/img/ACP.png
+  path: /assets/img/ACP.pdf
   width: 800
   height: 500
   alt: 
-description: Silently spoken (i.e., mouthed) letter recognition using an reflected ultrasonic frequency modulated continuous wave chirp, emitted by an earbud, to detect small changes in ear canal deformation resulting from jaw and tongue movement.
+description: Silently spoken (i.e., mouthed) letter recognition using an ultrasonic Orthogonal Frequency Division Multiplexing (OFDM) chirp, emitted by an earbud, to detect small changes in ear canal deformation resulting from jaw, tongue, and facial muscle movement.
 venue: In Progress
 paper:  
 video: 
@@ -20,6 +20,6 @@ video:
 
 
 # Abstract:
-Speech recognition systems are widely used in mobile devices. These systems enable natural hands-free input mobile devices input. However, speech reconition systems can be awkward to use and are easily overheard. For example, speaking aloud to a voice assistant in public places can be awkward or inappropriate (e.g., libraries) and user inputs might contain information the user does not want others to hear. Luckily, vocal production (e.g, sound produced by the vocal system) is not required for to recognize the jaw and tongue movements associated with speech. For example, speaking the letter "A" requires a characteristic set of mouth and jaw positions. In this work, we propose a 'silent speech' recognition method that can distinguish letters spoken silently (that is, without vocal production). The proposed method recognizes silently spelled letters using an inaudible ultrasounic chirp. The frequench modulated contiuous wave chirp is emitted into the ear canal by an earbud and its reflection is recorded by the same device. As users silently speak letters, thier facial muscles, jaw and tongue apply pressure against the ear canal, deforming it slightly. This deformation will apply a transfer function to the reflected FMWC chrip. Our model analyzes the reflected signal and classifies the target letter. 
+Silent speech interaction (SSI) allows users to discreetly input text without using their hands. Existing wearable SSI systems typically require custom devices and are limited to a small lexicon, limiting their utility to a small set of command words.  This work proposes ReHEarSE, an earbud-based ultrasonic SSI system capable of generalizing to words that do not appear in its training dataset, providing support for nearly an entire dictionary's worth of words. As a user silently spells words, ReHEarSE uses autoregressive features to identify subtle changes in ear canal shape. ReHEarSE infers words using a deep learning model trained to optimize connectionist temporal classification (CTC) loss with an intermediate embedding that accounts for different letters and transitions between them. We find that ReHEarSE recognizes unseen words with an accuracy of \pmnice{89.3}{10.9}\%.
 
 
