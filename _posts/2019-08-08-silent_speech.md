@@ -1,7 +1,7 @@
 ---
 title: ReHEarSE - Recognizing Hidden-in-the-Ear Silent Expressions using Ultrasonic Occluded Ear Canal Deformation Analysis 
 author: Ken
-date: 2022-08-08 11:33:00 +0800
+date: 2023-09-15 11:33:00 +0800
 categories: [Research]
 tags: [audio, ultrasonic sensing, earbuds, HCI]
 math: true
@@ -12,7 +12,7 @@ image:
   height: 500
   alt: 
 description: Silently spoken (i.e., mouthed) letter recognition using an ultrasonic Orthogonal Frequency Division Multiplexing (OFDM) chirp, emitted by an earbud, to detect small changes in ear canal deformation resulting from jaw, tongue, and facial muscle movement.
-venue: In Progress
+venue: In Submission
 paper:  
 video: 
 
