@@ -11,7 +11,7 @@ layout: page
     {% for category in post.categories %}
         {% if category == "Research" %}
         <div class="project_wrapper">
-        <div><img src= {{post.image.path}} alt="Project_Image" width={{post.image.width}} height={{post.image.height}}/></div>
+        <div class="project_image"><img src= {{post.image.path}} alt="Project_Image" width={{post.image.width}} height={{post.image.height}}/></div>
             <div class="project_blurb_wrapper">
                 <p class="project_title">{{ post.title }} [{{post.venue}}]</p>
                 <p class="project_description">{{ post.description }} </p>

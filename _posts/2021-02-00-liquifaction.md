@@ -13,8 +13,8 @@ image:
   alt: 
 description: A series of geospatial models for predicting soil liquefaction infer subsurface traits via satellite remote sensing and mapped information
 venue: Soil Dynamics and Earthquake Engineering
-paper:  "https://www.sciencedirect.com/science/article/pii/S026772612200197X"
-video: 
+paper: "https://www.sciencedirect.com/science/article/pii/S026772612200197X"
+
 
 ---
 

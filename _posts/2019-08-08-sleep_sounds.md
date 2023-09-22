@@ -8,8 +8,8 @@ math: true
 mermaid: true
 image:
   path: /assets/img/Sleep_Sounds.PNG
-  width: 800
-  height: 500
+  width: 500
+  height: 300
   alt: 
 description: An ultra light-weight human sleep sound classification method 
 venue: PERCOM::HCCS 2022

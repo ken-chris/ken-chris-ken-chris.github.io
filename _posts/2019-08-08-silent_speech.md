@@ -8,8 +8,8 @@ math: true
 mermaid: true
 image:
   path: /assets/img/ACP.png
-  width: 800
-  height: 500
+  width: 600
+  height: 400
   alt: 
 description: Silently spoken (i.e., mouthed) letter recognition using an ultrasonic Orthogonal Frequency Division Multiplexing (OFDM) chirp, emitted by an earbud, to detect small changes in ear canal deformation resulting from jaw, tongue, and facial muscle movement.
 venue: In Submission

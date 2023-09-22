@@ -9,10 +9,13 @@
     }  
     background: var(--sidebar-bg);
     text-align: center;
+    margin-top: 1.6rem;
+    padding-top: .8rem;
     padding-bottom: .8rem;
     padding-left: .8rem;
     padding-right: .8rem;
-    border: 2rem, solid, var(--sidebar-bg);
+    border-radius: .8rem;
+    /*border: 2rem, solid, var(--sidebar-bg);*/
     a {
       padding-right: 0.2rem;
     }
@@ -25,6 +28,16 @@
   }  
   font-size: 1.5rem;
 }
+
+.project_image {
+  text-align: center;
+}
+
+.project_image img {
+  margin: auto;
+  display: block;
+}
+
 
 .project_wrapper {
   &[data-mode="dark"] {
