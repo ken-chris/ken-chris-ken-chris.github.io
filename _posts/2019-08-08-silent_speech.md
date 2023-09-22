@@ -7,7 +7,7 @@ tags: [audio, ultrasonic sensing, earbuds, HCI]
 math: true
 mermaid: true
 image:
-  path: /assets/img/ACP.pdf
+  path: /assets/img/ACP.png
   width: 800
   height: 500
   alt: 
