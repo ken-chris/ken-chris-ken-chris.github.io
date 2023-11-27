@@ -13,7 +13,7 @@ My research focuses on using the sensors embedded in common devices (e.g., mobil
 <h2>🏫 Education</h2>
 
 + [ ] _PhD Computer Science - Univeristy of Toronto (in progress)
-+ [x] _MS Engineering, Data Science, and Information Technology - Tsingua Univeristy (2021)
++ [x] _MS Engineering, Data Science, and Information Technology - Tsinghua Univeristy (2021)
 + [x] _MS Technology Innovation - Univeristy of Washington (2021)
 + [x] _BA International Studies - American University (2011)
 
