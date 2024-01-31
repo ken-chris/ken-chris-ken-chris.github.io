@@ -12,7 +12,7 @@ image:
   height: 400
   alt: 
 description: Silently spoken (i.e., mouthed) letter recognition using an ultrasonic Orthogonal Frequency Division Multiplexing (OFDM) chirp, emitted by an earbud, to detect small changes in ear canal deformation resulting from jaw, tongue, and facial muscle movement.
-venue: ACM CHI 2024
+venue: In submission
 paper:  
 video: 
 
